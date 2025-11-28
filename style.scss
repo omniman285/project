@@ -1,0 +1,190 @@
+.head {
+    position: relative;
+    height: 750px;
+    z-index: 999px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+}
+.ok {
+    position: sticky;
+    top: 20px;
+    left: 90px;
+    font-size: large;
+}
+.okd {
+   position: sticky;
+   top: 20px;
+   font-size: large;
+   left: 600px;
+   color: gray;
+   text-decoration: none;
+}
+.oks {
+   position: sticky;
+   top: 20px;
+   left: 700px;
+   font-size: large;
+   text-decoration: none;
+   color: black;
+   transition: color 0.7s ease-in-out;
+}
+.ew {
+    position: sticky;
+    top: 6px;
+    left: 1150px;
+    color: white;
+    background-color: black;
+    border: 2px solid;
+    padding: 13px 30px;
+    border-radius: 60px;
+    font-size: large;
+    transition: color 0.8s ease-in-out, background-color 0.8s ease-in-out;
+}
+.op {
+    position: absolute;
+    left: 80px;
+    font-size: 100px;
+    bottom: 450px;
+}
+.sk {
+   position: absolute;
+   left: 80px;
+   bottom: 200px;
+   font-size: large;
+}
+.ski {
+   position: absolute;
+   left: 80px;
+   bottom: 175px;
+   font-size: large;
+}
+.skib {
+   position: absolute;
+   left: 80px;
+   font-size: large;
+   bottom: 150px;
+}
+.skibi {
+   position: absolute;
+   left: 80px;
+   font-size: large;
+   bottom: 125px;
+}
+.ma {
+    position: relative;
+}
+.opm {
+    position: absolute;
+    left: 1150px;
+    bottom: 160px;
+    border: 2px solid;
+    background-color: black;
+    padding: 15px 35px;
+    border-radius: 60px;
+    font-size: large;
+    color: white;
+    transition: color 0.7s ease-in, background-color 0.7s ease-in;
+}
+.ew:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.opm:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.oks:hover {
+    color: gray;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.image {
+    width: 570px;
+    height: 420px;
+    position: absolute;
+    left: 72px;
+    top: 1px;
+}
+.secti {
+    position: relative;
+}
+.imag {
+    width: 570px;
+    height: 420px;
+    position: absolute;
+    left: 660px;
+    top: 1px;
+}
+.ima {
+    width: 580px;
+    height: 800px;
+    position: absolute;
+    left: 72px;
+    top: 535px;
+}
+.ab {
+    position: absolute;
+    left: 715px;
+    top: 715px;
+    font-size: 65px;
+}
+.our {
+    position: absolute;
+    left: 715px;
+    top: 825px;
+    font-size: larger;
+}
+.qw {
+    position: absolute;
+    left: 715px;
+    top: 890px;
+}
+.qwe {
+    position: absolute;
+    left: 715px;
+    top: 915px;
+}
+.qwer {
+    position: absolute;
+    left: 715px;
+    top: 940px;
+}
+.qwert {
+    position: absolute;
+    left: 715px;
+    top: 965px;
+}
+.qwerty {
+    position: absolute;
+    left: 715px;
+    top: 990px;
+}
+.qwertys {
+    position: absolute;
+    left: 715px;
+    top: 1015px;
+}
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  position: absolute;
+  top
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.sections {
+    background-color: #D08454;
+    position: relative;
+    top: 1319px;
+    margin: 0;
+    height: 500px;
+}
