@@ -1,102 +1,103 @@
 .head {
-    position: relative;
-    height: 750px;
-    z-index: 999px;
-    width: 100%;
-    backdrop-filter: blur(10px);
+  position: relative;
+  height: 750px;
+  z-index: 999px;
+  width: 100%;
+  backdrop-filter: blur(10px);
 }
 .ok {
-    position: sticky;
-    top: 20px;
-    left: 90px;
-    font-size: large;
+  position: sticky;
+  top: 20px;
+  left: 90px;
+  font-size: small;
 }
 .okd {
-   position: sticky;
-   top: 20px;
-   font-size: large;
-   left: 600px;
-   color: gray;
-   text-decoration: none;
+  position: sticky;
+  top: 20px;
+  font-size: small;
+  left: 700px;
+  color: gray;
+  text-decoration: none;
 }
 .oks {
-   position: sticky;
-   top: 20px;
-   left: 700px;
-   font-size: large;
-   text-decoration: none;
-   color: black;
-   transition: color 0.7s ease-in-out;
+  position: sticky;
+  top: 20px;
+  left: 800px;
+  font-size: small;
+  text-decoration: none;
+  color: black;
+  transition: color 0.7s ease-in-out;
 }
 .ew {
-    position: sticky;
-    top: 6px;
-    left: 1150px;
-    color: white;
-    background-color: black;
-    border: 2px solid;
-    padding: 13px 30px;
-    border-radius: 60px;
-    font-size: large;
-    transition: color 0.8s ease-in-out, background-color 0.8s ease-in-out;
+  position: sticky;
+  top: 6px;
+  left: 1350px;
+  color: white;
+  background-color: black;
+  border: 2px solid;
+  padding: 13px 30px;
+  border-radius: 60px;
+  font-size: small;
+  transition: color 0.8s ease-in-out, background-color 0.8s ease-in-out;
 }
 .op {
-    position: absolute;
-    left: 80px;
-    font-size: 100px;
-    bottom: 450px;
+  position: absolute;
+  left: 80px;
+  font-size: 120px;
+  bottom: 400px;
 }
 .sk {
-   position: absolute;
-   left: 80px;
-   bottom: 200px;
-   font-size: large;
+  position: absolute;
+  left: 80px;
+  bottom: 200px;
+  font-size: small;
 }
 .ski {
-   position: absolute;
-   left: 80px;
-   bottom: 175px;
-   font-size: large;
+  position: absolute;
+  left: 80px;
+  bottom: 183px;
+  font-size: small;
 }
 .skib {
-   position: absolute;
-   left: 80px;
-   font-size: large;
-   bottom: 150px;
+  position: absolute;
+  left: 80px;
+  font-size: small;
+  bottom: 165px;
 }
 .skibi {
-   position: absolute;
-   left: 80px;
-   font-size: large;
-   bottom: 125px;
+  position: absolute;
+  left: 80px;
+  font-size: small;
+  bottom: 150px;
 }
 .ma {
-    position: relative;
+  position: relative;
 }
 .opm {
-    position: absolute;
-    left: 1150px;
-    bottom: 160px;
-    border: 2px solid;
-    background-color: black;
-    padding: 15px 35px;
-    border-radius: 60px;
-    font-size: large;
-    color: white;
-    transition: color 0.7s ease-in, background-color 0.7s ease-in;
+  position: absolute;
+  left: 1350px;
+  bottom: 180px;
+  border: 2px solid;
+  background-color: black;
+  padding: 15px 35px;
+  border-radius: 60px;
+  font-size: small;
+  color: white;
+  transition: color 0.7s ease-in, background-color 0.7s ease-in;
+  text-decoration: none;
 }
 .ew:hover {
-    background-color: white;
-    color: black;
-    cursor: pointer;
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
 .opm:hover {
-    background-color: white;
-    color: black;
-    cursor: pointer;
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
 .oks:hover {
-    color: gray;
+  color: gray;
 }
 body {
   font-family: "Ubuntu", sans-serif;
@@ -104,87 +105,316 @@ body {
   font-style: normal;
 }
 .image {
-    width: 570px;
-    height: 420px;
-    position: absolute;
-    left: 72px;
-    top: 1px;
+  width: 570px;
+  height: 420px;
+  position: absolute;
+  left: 72px;
+  top: 1px;
 }
 .secti {
-    position: relative;
+  position: relative;
 }
 .imag {
-    width: 570px;
-    height: 420px;
-    position: absolute;
-    left: 660px;
-    top: 1px;
+  width: 570px;
+  height: 420px;
+  position: absolute;
+  left: 660px;
+  top: 1px;
 }
 .ima {
-    width: 580px;
-    height: 800px;
-    position: absolute;
-    left: 72px;
-    top: 535px;
+  width: 580px;
+  height: 800px;
+  position: absolute;
+  left: 72px;
+  top: 535px;
 }
 .ab {
-    position: absolute;
-    left: 715px;
-    top: 715px;
-    font-size: 65px;
+  position: absolute;
+  left: 715px;
+  top: 715px;
+  font-size: 65px;
 }
 .our {
-    position: absolute;
-    left: 715px;
-    top: 825px;
-    font-size: larger;
+  position: absolute;
+  left: 715px;
+  top: 825px;
+  font-size: larger;
 }
 .qw {
-    position: absolute;
-    left: 715px;
-    top: 890px;
+  position: absolute;
+  left: 715px;
+  top: 890px;
 }
 .qwe {
-    position: absolute;
-    left: 715px;
-    top: 915px;
+  position: absolute;
+  left: 715px;
+  top: 915px;
 }
 .qwer {
-    position: absolute;
-    left: 715px;
-    top: 940px;
+  position: absolute;
+  left: 715px;
+  top: 940px;
 }
 .qwert {
-    position: absolute;
-    left: 715px;
-    top: 965px;
+  position: absolute;
+  left: 715px;
+  top: 965px;
 }
 .qwerty {
-    position: absolute;
-    left: 715px;
-    top: 990px;
+  position: absolute;
+  left: 715px;
+  top: 990px;
 }
 .qwertys {
-    position: absolute;
-    left: 715px;
-    top: 1015px;
-}
-.reveal {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
   position: absolute;
-  top
-}
-
-.reveal.visible {
-  opacity: 1;
-  transform: translateY(0);
+  left: 715px;
+  top: 1015px;
 }
 .sections {
-    background-color: #D08454;
-    position: relative;
-    top: 1319px;
-    margin: 0;
-    height: 500px;
+  background-color: #d08454;
+  position: relative;
+  top: 1400px;
+  margin: 0;
+  height: 580px;
+  right: 60px;
+  width: 1560px;
+}
+.tes {
+  position: absolute;
+  font-size: 50px;
+  left: 120px;
+  top: 60px;
+}
+.reveal {
+  position: absolute;
+  left: 120px;
+  top: 170px;
+  font-size: small;
+}
+.rev {
+  position: absolute;
+  left: 120px;
+  top: 187px;
+  font-size: small;
+}
+.reve {
+  position: absolute;
+  left: 120px;
+  top: 204px;
+  font-size: small;
+}
+.sara {
+  position: absolute;
+  left: 120px;
+  top: 245px;
+  font-size: small;
+}
+.sus {
+  position: absolute;
+  font-size: small;
+  left: 1070px;
+  top: 310px;
+}
+.susy {
+  position: absolute;
+  font-size: small;
+  left: 1070px;
+  top: 327px;
+}
+.suss {
+  position: absolute;
+  font-size: small;
+  left: 1070px;
+  top: 344px;
+}
+.oksas {
+  position: absolute;
+  font-size: small;
+  left: 1070px;
+  top: 385px;
+}
+.rt {
+  position: absolute;
+  left: 120px;
+  top: 440px;
+  font-size: small;
+}
+.rty {
+  position: absolute;
+  left: 120px;
+  top: 457px;
+  font-size: small;
+}
+.rtyu {
+  position: absolute;
+  left: 120px;
+  top: 474px;
+  font-size: small;
+}
+.po {
+  position: absolute;
+  left: 120px;
+  top: 491px;
+  font-size: small;
+}
+.poi {
+  position: absolute;
+  left: 120px;
+  top: 531px;
+  font-size: small;
+}
+.nosc {
+  position: relative;
+}
+.ours {
+  position: absolute;
+  top: 1460px;
+  font-size: 50px;
+  left: 55px;
+}
+.nbmv {
+  position: absolute;
+  top: 100000px;
+}
+.cool {
+  border: 1px solid;
+  padding: 11px 30px;
+  position: absolute;
+  top: 1550px;
+  background-color: black;
+  color: white;
+  border-radius: 70px;
+  font-size: small;
+  left: 62px;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  text-decoration: none;
+}
+.cool:hover {
+  color: black;
+  background-color: white;
+}
+.kj {
+  border: 1px solid;
+  width: 300px;
+  position: absolute;
+  top: 1635px;
+  left: 660px;
+}
+.res {
+  position: absolute;
+  top: 1660px;
+  left: 660px;
+  font-size: 30px;
+}
+.tya {
+  position: absolute;
+  top: 1700px;
+  left: 660px;
+  font-size: small;
+}
+.tyas {
+  position: absolute;
+  top: 1717px;
+  left: 660px;
+  font-size: small;
+}
+.kjh {
+  border: 1px solid;
+  width: 300px;
+  position: absolute;
+  top: 1635px;
+  left: 1150px;
+}
+.jiua {
+  position: absolute;
+  top: 1630px;
+  left: 1150px;
+  font-size: 30px;
+}
+.ki {
+  position: absolute;
+  top: 1700px;
+  left: 1150px;
+  font-size: small;
+}
+.kis {
+  position: absolute;
+  top: 1717px;
+  left: 1150px;
+  font-size: small;
+}
+.kjhg {
+  border: 1px solid;
+  width: 300px;
+  position: absolute;
+  top: 1850px;
+  left: 660px;
+}
+.rgr {
+  position: absolute;
+  top: 1850px;
+  left: 660px;
+  font-size: 30px;
+}
+.rgrs {
+  position: absolute;
+  top: 1925px;
+  left: 660px;
+  font-size: small;
+}
+.rghs {
+  position: absolute;
+  top: 1942px;
+  left: 660px;
+  font-size: small;
+}
+.kjhgf {
+  border: 1px solid;
+  width: 300px;
+  position: absolute;
+  top: 1850px;
+  left: 1150px;
+}
+.tile {
+  position: absolute;
+  top: 1850px;
+  left: 1150px;
+  font-size: 30px;
+}
+.rest {
+  position: absolute;
+  top: 1925px;
+  left: 1150px;
+  font-size: small;
+}
+.rests {
+  position: absolute;
+  top: 1942px;
+  left: 1150px;
+  font-size: small;
+}
+.cont {
+  position: absolute;
+  top: 2150px;
+  left: 1200px;
+  font-size: small;
+}
+.co {
+  position: absolute;
+  top: 2167px;
+  left: 1200px;
+  font-size: small;
+}
+.con {
+  position: absolute;
+  top: 2184px;
+  left: 1200px;
+  font-size: small;
+}
+.conta {
+  position: absolute;
+  top: 2201px;
+  left: 1200px;
+  font-size: small;
 }
